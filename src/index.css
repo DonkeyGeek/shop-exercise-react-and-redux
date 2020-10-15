@@ -1,0 +1,63 @@
+.section-one {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    width: 250px;
+    padding: 20px;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+img {
+    margin: 0 auto;
+}
+
+#count, #count-tab, #count-tv {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.container p {
+    text-align: center;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    border: 1px solid purple;
+    background: purple;
+    padding: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    flex-grow: 1;
+}
+
+button:hover {
+    border: 1px solid rgb(54, 4, 54);
+    background: rgb(54, 4, 54);
+}
+
+input {
+    width: 20px;
+    text-align: center;
+    border: 2px solid purple
+}
+
+.comments {
+    width: 580px;
+    padding: 10px;
+    border: 1px solid grey;
+    margin: 10px auto;
+}
